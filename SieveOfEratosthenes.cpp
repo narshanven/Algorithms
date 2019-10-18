@@ -17,3 +17,11 @@ void Sieve(int n)
        if (prime[p]) 
           cout << p << " "; 
 } 
+
+int main(){
+    int a;
+    cout<<"Enter the value of N.: ";
+    cin>>a;
+    Sieve(a);
+    return 0;
+}
